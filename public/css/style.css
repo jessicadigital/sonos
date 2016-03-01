@@ -1,0 +1,50 @@
+.content {
+    background-color:rgba(0,0,0,0.7);
+    padding:0.5em;
+}
+.content h1, .content h2, .content h3 {
+    color:#ffffff;
+    font-family:'Open Sans',sans-serif;
+    margin:0;
+    padding:0;
+}
+.content h1 {
+    font-size:100%;
+}
+.content h2 {
+    font-size:90%;
+}
+.content h3 {
+    font-size:80%;
+}
+
+.currenttrack {
+    background-color:#aaaaaa;
+    background-position:center center;
+    background-size:cover;
+    height:20em;
+    position:relative;
+    width:20em;
+}
+.progress {
+    background-color:#aaaaaa;
+    bottom:0;
+    left:0;
+    position:relative;
+    top:0;
+}
+.progress-inner {
+    padding:0.5em;
+}
+.progress-outer {
+    background-color:rgba(0,0,0,0.3);
+    bottom:0;
+    color:#ffffff;
+    font-family:'Open Sans',sans-serif;
+    font-size:80%;
+    height:2em;
+    left:0;
+    overflow:hidden;
+    position:absolute;
+    right:0;
+}
